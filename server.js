@@ -8,7 +8,7 @@ var cors        = require('cors');
 var helmet = require('helmet');
 var apiRoutes         = require('./routes/api.js');
 var fccTestingRoutes  = require('./routes/fcctesting.js');
-var runner            = require('./test-runner');
+var runner = require('./test-runner');
 
 var app = express();
 

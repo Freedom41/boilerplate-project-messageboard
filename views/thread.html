@@ -15,7 +15,7 @@
     </header>
     <br>
     
-    <div id='boardDisplay'></div>
+    <div id='boardDisplay' class="main-container"></div>
     
     <hr style='margin: 50px; margin-top: 200px'>
     <!-- Your web-app is https, so your scripts need to be too -->
@@ -41,7 +41,7 @@
             // THIS IS NOT WHAT IT WOULD LOOK LIKE TO GO LIVE
             //
               console.log(ele);//can I use typeScript please?!
-              var thread = ['<div class="thread">'];
+              var thread = ['<div class="thread container">'];
               thread.push('<div class="main">')
               thread.push('<p class="id">id: '+ele._id+' ('+ele.created_on+')</p>');
               thread.push('<form id="reportThread"><input type="hidden" name="report_id" value="'+ele._id+'"><input type="submit" value="Report"></form>');

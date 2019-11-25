@@ -4,7 +4,13 @@
 }
 
 body {
-  padding: 10px;
+  padding: 1.5rem;
+  background: #3F403E;
+  color: #FCFFFA;
+}
+
+.main {
+  padding: 1rem;
 }
 
 .replies {
@@ -33,4 +39,44 @@ body {
 
 #submitNewThread {
   margin: 50px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background: #E3E6E1;
+  color: #3F403E;
+  padding: 1.25rem;
+  border: 1px solid whitesmoke;
+  border-radius: 25px;
+  font-size: 1.75rem;
+  width: 50%;
+  margin: 1rem;
+}
+
+input {
+  padding: 0.25rem;
+  border: 1px solid #3F403E;
+  border-radius: 10px;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.25rem;
+  margin-top: 0.75rem;
+  border: 1px solid #3F403E;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: cursive;
 }

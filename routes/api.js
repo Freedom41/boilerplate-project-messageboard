@@ -81,8 +81,7 @@ module.exports = function (app) {
     })
 
     .delete(async (req, res) => {
-
-      let id = mongoose.Types.ObjectId(req.body.thread_id);
+      let id = mongoose.Types.ObjectId(req.body.thread_id.trim());  
       let password = req.body.delete_password;
       let board = req.params.board;
 
